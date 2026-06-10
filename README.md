@@ -9,7 +9,7 @@
 
 ## 👋 About me
 
-**My name is Maxim**, I'm a data analyst.
+**My name is Maksim**, I'm a data analyst.
 
  I work with large amounts of data, build dashboards, and write complex SQL queries. I'm proficient in Python, SQL, and BI tools.
 

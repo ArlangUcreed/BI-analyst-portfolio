@@ -216,3 +216,34 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ====================
+# Jupyter Notebook
+# ====================
+.ipynb_checkpoints/
+*.ipynb_checkpoints*
+~.ipynb
+
+# ====================
+# DBeaver (SQL)
+# ====================
+.dbeaver/
+*.dbeaver
+
+# ====================
+# Данные и большие файлы (НЕ загружаем на GitHub)
+# ====================
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.parquet
+
+# ====================
+# Логи и временные файлы
+# ====================
+*.log
+*.tmp
+*.temp
+*.bak

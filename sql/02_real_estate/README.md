@@ -78,3 +78,16 @@ SELECT
 FROM categorized_data
 GROUP BY region, activity_segment
 ORDER BY region, activity_segment;
+
+</details>
+
+📁 Файлы проекта
+
+Файл	                                Описание
+1st_module_project_Bessudnov M.A.sql	Полный SQL-код проекта
+
+👤 Автор
+Бессуднов Максим Александрович
+
+📅 Дата
+12 мая 2025

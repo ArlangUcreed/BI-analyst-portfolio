@@ -82,9 +82,9 @@ s3	Amazon S3	host: storage.yandexcloud.net, Access Key, Secret Key
 clickhouse_conn	Generic	Login, Password, Extra: {"host": "...", "port": 8443, "database": "..."}
 3. Активировать DAG
 
-    В интерфейсе Airflow включить DAG project_da_aggregator
+В интерфейсе Airflow включить DAG project_da_aggregator
 
-    DAG будет запускаться ежедневно в 16:00
+DAG будет запускаться ежедневно в 16:00
 
 4. Проверить результат в ClickHouse (DBeaver)
 sql

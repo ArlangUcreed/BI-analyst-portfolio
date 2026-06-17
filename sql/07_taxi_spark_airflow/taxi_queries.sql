@@ -1,4 +1,10 @@
--- 1. Создание таблицы и проверка
+-- =============================================
+-- ПРОВЕРОЧНЫЕ ЗАПРОСЫ ДЛЯ CLICKHOUSE (DBeaver)
+-- Проект: Яндекс Такси
+-- Автор: Бессуднов Максим Александрович
+-- =============================================
+
+-- 1. Создание таблицы (если её нет)
 CREATE TABLE IF NOT EXISTS taxi_payment_summary (
     payment_type String,
     trip_count UInt64,
@@ -11,10 +17,10 @@ ENGINE = MergeTree()
 ORDER BY (payment_type, processing_date)
 PARTITION BY toYYYYMM(processing_date);
 
--- Удалить старую таблицу
+-- 2. Удалить старую таблицу (если нужно пересоздать)
 DROP TABLE IF EXISTS taxi_payment_summary;
 
--- Создать новую с правильной структурой
+-- 3. Создать новую с правильной структурой
 CREATE TABLE taxi_payment_summary (
     payment_type String,
     trip_count UInt64,
@@ -24,30 +30,22 @@ CREATE TABLE taxi_payment_summary (
 ) ENGINE = MergeTree()
 ORDER BY payment_type;
 
--- Проверить структуру
+-- 4. Проверить структуру таблицы
 SHOW CREATE TABLE taxi_payment_summary;
 
--- Проверить, что таблица создана
-SELECT * FROM taxi_payment_summary;
-
--- Показать все таблицы в базе данных
-SHOW TABLES;
-
--- Описать структуру таблицы
+-- 5. Описать структуру таблицы
 DESCRIBE taxi_payment_summary;
 
--- Проверить создание
-SHOW CREATE TABLE taxi_payment_summary;
+-- 6. Показать все таблицы в базе данных
+SHOW TABLES;
 
--- Основные запросы для проверки в DBeaver
-
--- 1. Проверить, что данные есть в таблице:
+-- 7. Проверить, что данные есть в таблице
 SELECT * FROM taxi_payment_summary;
 
--- 2. Проверить количество записей
+-- 8. Проверить количество записей
 SELECT COUNT(*) FROM taxi_payment_summary;
 
--- 3. Посмотреть все способы оплаты и показатели:
+-- 9. Посмотреть все способы оплаты и показатели
 SELECT 
     payment_type,
     trip_count,
@@ -57,16 +55,13 @@ SELECT
 FROM taxi_payment_summary
 ORDER BY payment_type;
 
--- 4. Проверить общую статистику:
+-- 10. Проверить общую статистику
 SELECT 
     SUM(trip_count) as total_trips,
     SUM(total_revenue) as total_revenue
 FROM taxi_payment_summary;
 
--- 5. Проверить структуру таблицы:
-SHOW CREATE TABLE taxi_payment_summary;
-
--- 6. Проверить распределение по способам оплаты:
+-- 11. Проверить распределение по способам оплаты
 SELECT 
     payment_type,
     trip_count,
@@ -74,5 +69,5 @@ SELECT
 FROM taxi_payment_summary
 ORDER BY trip_count DESC;
 
--- Итоговая проверка по заданию:
+-- 12. Итоговая проверка по заданию
 SELECT * FROM taxi_payment_summary;

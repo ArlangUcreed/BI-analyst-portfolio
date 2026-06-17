@@ -81,11 +81,12 @@ data-analytics-portfolio/
 
 ## 📊 Дашборды (DataLens / Superset)
 
-*Здесь будут скриншоты дашбордов*
-
 | Проект | Платформа | Скриншот | Описание |
 |--------|-----------|----------|----------|
-| — | — | — | — |
+| **Marketing Performance Dashboard** | Yandex DataLens | ![скрин](./dashboards/screenshots/Marketing%20Performanca%20Dashboard.png) | Комплексный дашборд по маркетинговой эффективности: ROI по каналам, динамика клиентской базы, длительность сессии. Выявлены критические потери по ROI (-97.2%) и отток клиентов (-27.7% PoP). |
+| **Games Analytics Dashboard** | Yandex DataLens | ![скрин](./dashboards/screenshots/Games%20Analytics%20Dashboard.png) | Анализ игровой индустрии: распределение игр по платформам (PS4 50.24%, PS5 49.54%), жанрам, средняя цена. Данные по 16 773 играм и 3 280 разработчикам. |
+| **E-commerce аналитический дашборд** | Apache Superset | ![скрин](./dashboards/screenshots/Screenshot%202026-06-17%20at%2014-03-37%20E-commerce%20аналитический%20дашборд_max.bessudnoff.png) | Анализ продаж и пользователей: конверсия в заказ, распределение по каналам (referral, ads, email, organic), динамика по OS. Топ-категории: sports, groceries, books. |
+| **Панель управления маркетплейсом** | Apache Superset | ![скрин](./dashboards/screenshots/Screenshot%202026-06-17%20at%2014-05-21%20Панель%20управления%20маркетплейсом%20Аналитика%20продаж%20и%20пользователей.png) | Аналитика маркетплейса: LTV, DAU, ARPU/ARPPU, распределение продавцов и покупателей. Товары с самой высокой выручкой (Record — 5.46M, Lose — 5.26M). |
 
 ---
 

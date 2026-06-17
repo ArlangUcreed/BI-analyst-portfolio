@@ -110,12 +110,15 @@ data-analytics-portfolio/
 
 ## 🗄️ SQL (DBeaver)
 
-*Здесь будут SQL-запросы*
-
-| Проект | Описание | Ссылка |
-|--------|----------|--------|
-| — | — | — |
-
+| # | Project | Description | Technologies | Link |
+|---|---------|-------------|--------------|------|
+| 1 | **Секреты Тёмнолесья** | Analysis of in-game purchases: share of paying players, segmentation by race, frequency analysis | PostgreSQL, CTE, Window Functions | [📁](./sql/01_game_analytics/) |
+| 2 | **Real Estate Market** | Analysis of real estate market in St. Petersburg and Leningrad region: seasonality, regional comparison | PostgreSQL, CTE, Percentiles, FULL OUTER JOIN | [📁](./sql/02_real_estate/) |
+| 3 | **GameBase (Steam)** | Database recovery and optimization: indexes, partitioning, data mart creation | PostgreSQL, DDL, Indexes, Partitioning | [📁](./sql/03_steam_gamebase/) |
+| 4 | **Movie Analytics (ClickHouse)** | Analysis of movie ratings: dynamics by year, comparison of Russian vs foreign films | ClickHouse, Arrays, Statistical Tests | [📁](./sql/04_clickhouse_movies/) |
+| 5 | **Yandex Books** | User behavior analysis: platform differences (iOS vs Android), segmentation, anomaly detection | ClickHouse, Conditional Aggregation, Variation Coefficient | [📁](./sql/05_yandex_books/) |
+| 6 | **Marketplace** | Data cleaning and preparation: deduplication, logical error fixing, business metrics calculation | PostgreSQL, Descriptive Statistics, Window Functions | [📁](./sql/06_marketplace/) |
+| 7 | **Yandex Taxi** | Automated ETL pipeline: data aggregation by payment type, daily Airflow scheduling | PySpark, ClickHouse, Airflow, S3 | [📁](./sql/07_taxi_spark_airflow/) |
 ---
 
 ## 📫 Контакты

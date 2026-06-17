@@ -84,27 +84,27 @@ data-analytics-portfolio/
 | Проект | Платформа | Скриншот | Описание |
 |--------|-----------|----------|----------|
 | **Marketing Performance Dashboard** | Yandex DataLens | ![скрин 1](./dashboards/screenshots/Marketing%20Performanca%20Dashboard.png) | Общий вид: ROI, клиенты, заказы, затраты, выручка |
-| | | ![скрин 2](./dashboards/screenshots/Marketing%20Performanca%20Dashboard%202.png) | Аналитическая справка: конверсия (+18.9% PoP), критический ROI (-97.2%), затраты 512K vs выручка 14.4K |
+| | | ![скрин 2](./dashboards/screenshots/Marketing%20Performanca%20Dashboard%202.png) | Аналитическая справка: конверсия (+18.9% PoP), критический ROI (-97.2%) |
 | | | ![скрин 3](./dashboards/screenshots/Marketing%20Performanca%20Dashboard%203.png) | RCI по типам рекламы (content, cpc, mail) |
-| | | ![скрин 4](./dashboards/screenshots/Marketing%20Performanca%20Dashboard%204.png) | Динамика клиентской базы по каналам, ROI по каналам, длительность сессии |
-| **Games Analytics Dashboard** | Yandex DataLens | ![скрин 1](./dashboards/screenshots/Games%20Analytics%20Dashboard.png) | Общий вид: количество игр (16 773), разработчиков (3 280), платформы и жанры |
-| | | ![скрин 2](./dashboards/screenshots/Games%20Analytics%20Dashboard%201.png) | Анализ цен: средняя цена (193 ₽), динамика по платформам, цена по жанрам |
+| | | ![скрин 4](./dashboards/screenshots/Marketing%20Performanca%20Dashboard%204.png) | Динамика клиентской базы, ROI по каналам, длительность сессии |
+| **Games Analytics Dashboard** | Yandex DataLens | ![скрин 1](./dashboards/screenshots/Games%20Analytics%20Dashboard.png) | Общий вид: 16 773 игры, 3 280 разработчиков |
+| | | ![скрин 2](./dashboards/screenshots/Games%20Analytics%20Dashboard%201.png) | Средняя цена (193 ₽), динамика по платформам |
 | | | ![скрин 3](./dashboards/screenshots/Games%20Analytics%20Dashboard%202.png) | Изменение цен (YoY), распределение по жанрам |
-| | | ![скрин 4](./dashboards/screenshots/Games%20Analytics%20Dashboard%203.png) | Количество установок (13 046), игроков (2 730), распределение по странам |
-| | | ![скрин 5](./dashboards/screenshots/Games%20Analytics%20Dashboard%205.png) | Достижения: средний % ачивок по жанру, топ-10 достижений (Platinum — 419) |
-| | | ![скрин 6](./dashboards/screenshots/Games%20Analytics%20Dashboard%207.png) | Количество ачивок по жанру и платформе: Action/PS4 (23.3k), Puzzle/PS5 (20.6k) |
-| **E-commerce аналитический дашборд** | Apache Superset | ![скрин 1](./dashboards/screenshots/Screenshot%202026-06-17%20at%2014-03-37%20E-commerce%20аналитический%20дашборд_max.bessudnoff.png) | Основные метрики: продажи, аналитика пользователей, распределение по каналам (referral, ads, email, organic) |
-| | | ![скрин 2](./dashboards/screenshots/Screenshot%202026-06-17%20at%2014-03-47%20E-commerce%20аналитический%20дашборд_max.bessudnoff.png) | Товары с выручкой: общая выручка 5.93M, 55.3K заказов |
-| | | ![скрин 3](./dashboards/screenshots/Screenshot%202026-06-17%20at%2014-04-11%20E-commerce%20аналитический%20дашборд_max.bessudnoff.png) | Конверсия в заказ и время до первого заказа |
-| **Панель управления маркетплейсом** | Apache Superset | ![скрин 1](./dashboards/screenshots/Screenshot%202026-06-17%20at%2014-04-44%20Панель%20управления%20маркетплейсом%20Аналитика%20продаж%20и%20пользователей.png) | LTV, DAU, ARPU/ARPPU, метрики по категориям |
-| | | ![скрин 2](./dashboards/screenshots/Screenshot%202026-06-17%20at%2014-05-21%20Панель%20управления%20маркетплейсом%20Аналитика%20продаж%20и%20пользователей.png) | Распределение продавцов и покупателей, LTV, DAU, ARPU |
-| | | ![скрин 3](./dashboards/screenshots/Screenshot%202026-06-17%20at%2014-05-46%20Панель%20управления%20маркетплейсом%20Аналитика%20продаж%20и%20пользователей.png) | Топ-10 товаров: Record (5.46M), Lose (5.26M). Топ-10 продавцов: James Williams (72.1K) |
-| **Продажи медицинских пробирок** | Yandex DataLens | ![скрин](./dashboards/screenshots/Screenshot%202026-06-17%20at%2013-48-18%20Продажи%20медицинских%20пробирок%20—%20обзор%20и%20детализация.png) | Структура продаж по поставщикам: МедТех (130 020.7 млн ₽), Здоровье (73 298.5 млн ₽), ФармаСнаб (42 144.8 млн ₽) |
-| **Дашборд для агентства недвижимости** | Yandex DataLens | ![скрин 1](./dashboards/screenshots/Screenshot%202026-06-17%20at%2013-49-15%20Дашборд%20для%20агентства%20недвижимости.png) | Аналитика рынка: 23 650 квартир, средняя цена, динамика по месяцам |
-| | | ![скрин 2](./dashboards/screenshots/Screenshot%202026-06-17%20at%2013-49-24%20Дашборд%20для%20агентства%20недвижимости.png) | Среднее количество дней продажи, топ-5 по количеству квартир (СПб — 15 721) |
-| | | ![скрин 3](./dashboards/screenshots/Screenshot%202026-06-17%20at%2013-49-35%20Дашборд%20для%20агентства%20недвижимости.png) | Топ-5 по средней цене (Репино — 12M) и по дням продажи |
-| | | ![скрин 4](./dashboards/screenshots/Screenshot%202026-06-17%20at%2013-49-45%20Дашборд%20для%20агентства%20недвижимости.png) | Средняя стоимость 1 м²: СПб (124 514 ₽), Зеленогорск (115 408 ₽), Репино (112 734 ₽) |
-| | | ![скрин 5](./dashboards/screenshots/Screenshot%202026-06-17%20at%2013-49-53%20Дашборд%20для%20агентства%20недвижимости.png) | Детализация по дням недели и дополнительным фильтрам |
+| | | ![скрин 4](./dashboards/screenshots/Games%20Analytics%20Dashboard%203.png) | Установки (13 046), игроки (2 730) |
+| | | ![скрин 5](./dashboards/screenshots/Games%20Analytics%20Dashboard%205.png) | Достижения: Platinum — 419 |
+| | | ![скрин 6](./dashboards/screenshots/Games%20Analytics%20Dashboard%207.png) | Ачивки по жанру/платформе |
+| **E-commerce аналитический дашборд** | Apache Superset | ![скрин 1](./dashboards/screenshots/Screenshot%202026-06-17%20at%2014-03-37%20E-commerce%20аналитический%20дашборд_max.bessudnoff.png) | Основные метрики, каналы (referral, ads, email, organic) |
+| | | ![скрин 2](./dashboards/screenshots/Screenshot%202026-06-17%20at%2014-03-47%20E-commerce%20аналитический%20дашборд_max.bessudnoff.png) | Товары: выручка 5.93M, 55.3K заказов |
+| | | ![скрин 3](./dashboards/screenshots/Screenshot%202026-06-17%20at%2014-04-11%20E-commerce%20аналитический%20дашборд_max.bessudnoff.png) | Конверсия в заказ |
+| **Панель управления маркетплейсом** | Apache Superset | ![скрин 1](./dashboards/screenshots/Screenshot%202026-06-17%20at%2014-04-44%20Панель%20управления%20маркетплейсом%20Аналитика%20продаж%20и%20пользователей.png) | LTV, DAU, ARPU/ARPPU |
+| | | ![скрин 2](./dashboards/screenshots/Screenshot%202026-06-17%20at%2014-05-21%20Панель%20управления%20маркетплейсом%20Аналитика%20продаж%20и%20пользователей.png) | Продавцы vs покупатели |
+| | | ![скрин 3](./dashboards/screenshots/Screenshot%202026-06-17%20at%2014-05-46%20Панель%20управления%20маркетплейсом%20Аналитика%20продаж%20и%20пользователей.png) | Топ-10 товаров: Record (5.46M) |
+| **Продажи медицинских пробирок** | Yandex DataLens | ![скрин](./dashboards/screenshots/Screenshot%202026-06-17%20at%2013-48-18%20Продажи%20медицинских%20пробирок%20—%20обзор%20и%20детализация.png) | МедТех (130 020.7 млн ₽), Здоровье (73 298.5 млн ₽) |
+| **Дашборд для агентства недвижимости** | Yandex DataLens | ![скрин 1](./dashboards/screenshots/Screenshot%202026-06-17%20at%2013-49-15%20Дашборд%20для%20агентства%20недвижимости.png) | 23 650 квартир, средняя цена |
+| | | ![скрин 2](./dashboards/screenshots/Screenshot%202026-06-17%20at%2013-49-24%20Дашборд%20для%20агентства%20недвижимости.png) | Топ-5 по количеству квартир (СПб — 15 721) |
+| | | ![скрин 3](./dashboards/screenshots/Screenshot%202026-06-17%20at%2013-49-35%20Дашборд%20для%20агентства%20недвижимости.png) | Топ-5 по цене (Репино — 12M) |
+| | | ![скрин 4](./dashboards/screenshots/Screenshot%202026-06-17%20at%2013-49-45%20Дашборд%20для%20агентства%20недвижимости.png) | Средняя стоимость 1 м² (СПб — 124 514 ₽) |
+| | | ![скрин 5](./dashboards/screenshots/Screenshot%202026-06-17%20at%2013-49-53%20Дашборд%20для%20агентства%20недвижимости.png) | Детализация по дням недели |
 
 ---
 

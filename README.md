@@ -83,10 +83,22 @@ data-analytics-portfolio/
 
 | Проект | Платформа | Скриншот | Описание |
 |--------|-----------|----------|----------|
-| **Marketing Performance Dashboard** | Yandex DataLens | ![скрин](./dashboards/screenshots/Marketing%20Performanca%20Dashboard.png) | Комплексный дашборд по маркетинговой эффективности: ROI по каналам, динамика клиентской базы, длительность сессии. Выявлены критические потери по ROI (-97.2%) и отток клиентов (-27.7% PoP). |
-| **Games Analytics Dashboard** | Yandex DataLens | ![скрин](./dashboards/screenshots/Games%20Analytics%20Dashboard.png) | Анализ игровой индустрии: распределение игр по платформам (PS4 50.24%, PS5 49.54%), жанрам, средняя цена. Данные по 16 773 играм и 3 280 разработчикам. |
-| **E-commerce аналитический дашборд** | Apache Superset | ![скрин](./dashboards/screenshots/Screenshot%202026-06-17%20at%2014-03-37%20E-commerce%20аналитический%20дашборд_max.bessudnoff.png) | Анализ продаж и пользователей: конверсия в заказ, распределение по каналам (referral, ads, email, organic), динамика по OS. Топ-категории: sports, groceries, books. |
-| **Панель управления маркетплейсом** | Apache Superset | ![скрин](./dashboards/screenshots/Screenshot%202026-06-17%20at%2014-05-21%20Панель%20управления%20маркетплейсом%20Аналитика%20продаж%20и%20пользователей.png) | Аналитика маркетплейса: LTV, DAU, ARPU/ARPPU, распределение продавцов и покупателей. Товары с самой высокой выручкой (Record — 5.46M, Lose — 5.26M). |
+| **Marketing Performance Dashboard** | Yandex DataLens | ![скрин 1](./dashboards/screenshots/Marketing%20Performanca%20Dashboard.png) | Общий вид: ROI, клиенты, заказы, затраты, выручка |
+| | | ![скрин 2](./dashboards/screenshots/Marketing%20Performanca%20Dashboard%202.png) | Аналитическая справка: конверсия (+18.9% PoP), критический ROI (-97.2%), затраты 512K vs выручка 14.4K |
+| | | ![скрин 3](./dashboards/screenshots/Marketing%20Performanca%20Dashboard%203.png) | RCI по типам рекламы (content, cpc, mail) |
+| | | ![скрин 4](./dashboards/screenshots/Marketing%20Performanca%20Dashboard%204.png) | Динамика клиентской базы по каналам, ROI по каналам, длительность сессии |
+| **Games Analytics Dashboard** | Yandex DataLens | ![скрин 1](./dashboards/screenshots/Games%20Analytics%20Dashboard.png) | Общий вид: количество игр (16 773), разработчиков (3 280), платформы и жанры |
+| | | ![скрин 2](./dashboards/screenshots/Games%20Analytics%20Dashboard%201.png) | Анализ цен: средняя цена (193 ₽), динамика по платформам, цена по жанрам |
+| | | ![скрин 3](./dashboards/screenshots/Games%20Analytics%20Dashboard%202.png) | Изменение цен (YoY), распределение по жанрам |
+| | | ![скрин 4](./dashboards/screenshots/Games%20Analytics%20Dashboard%203.png) | Количество установок (13 046), игроков (2 730), распределение по странам |
+| | | ![скрин 5](./dashboards/screenshots/Games%20Analytics%20Dashboard%205.png) | Достижения: средний % ачивок по жанру, топ-10 достижений (Platinum — 419) |
+| | | ![скрин 6](./dashboards/screenshots/Games%20Analytics%20Dashboard%207.png) | Количество ачивок по жанру и платформе: Action/PS4 (23.3k), Puzzle/PS5 (20.6k) |
+| **E-commerce аналитический дашборд** | Apache Superset | ![скрин 1](./dashboards/screenshots/Screenshot%202026-06-17%20at%2014-03-37%20E-commerce%20аналитический%20дашборд_max.bessudnoff.png) | Основные метрики: продажи, аналитика пользователей, распределение по каналам (referral, ads, email, organic) |
+| | | ![скрин 2](./dashboards/screenshots/Screenshot%202026-06-17%20at%2014-03-47%20E-commerce%20аналитический%20дашборд_max.bessudnoff.png) | Товары с выручкой: общая выручка 5.93M, 55.3K заказов |
+| | | ![скрин 3](./dashboards/screenshots/Screenshot%202026-06-17%20at%2014-04-11%20E-commerce%20аналитический%20дашборд_max.bessudnoff.png) | Конверсия в заказ и время до первого заказа |
+| **Панель управления маркетплейсом** | Apache Superset | ![скрин 1](./dashboards/screenshots/Screenshot%202026-06-17%20at%2014-04-44%20Панель%20управления%20маркетплейсом%20Аналитика%20продаж%20и%20пользователей.png) | LTV, DAU, ARPU/ARPPU, метрики по категориям |
+| | | ![скрин 2](./dashboards/screenshots/Screenshot%202026-06-17%20at%2014-05-21%20Панель%20управления%20маркетплейсом%20Аналитика%20продаж%20и%20пользователей.png) | Распределение продавцов и покупателей, LTV, DAU, ARPU |
+| | | ![скрин 3](./dashboards/screenshots/Screenshot%202026-06-17%20at%2014-05-46%20Панель%20управления%20маркетплейсом%20Аналитика%20продаж%20и%20пользователей.png) | Топ-10 товаров: Record (5.46M), Lose (5.26M). Топ-10 продавцов: James Williams (72.1K) |
 
 ---
 

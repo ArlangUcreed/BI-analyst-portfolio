@@ -123,7 +123,7 @@ data-analytics-portfolio/
 
 ## 📫 Контакты
 
-- **Telegram:** @[ваш_ник]
+- **Telegram:** @makff15
 - **GitHub:** [github.com/ваш_username](https://github.com/ваш_username)
 
 ---
